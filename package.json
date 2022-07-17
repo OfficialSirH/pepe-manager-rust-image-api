@@ -1,0 +1,12 @@
+{
+  "name": "@manager/image-api",
+  "scripts": {
+    "build": "cargo build --release",
+    "lint": "cargo fmt --check",
+    "format": "cargo fmt",
+    "start": "cross-env NODE_ENV=production cargo run --release"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
